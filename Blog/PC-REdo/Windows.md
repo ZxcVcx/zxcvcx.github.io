@@ -132,7 +132,7 @@ layout: default
 
 ***
 
-#### 1.3.1 TransMac 重置试用
+#### 3.1 TransMac 重置试用
 
 &emsp;&emsp;注册表删除 HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved 这个 Key就可以，这里提供 cmd 脚本：
 
