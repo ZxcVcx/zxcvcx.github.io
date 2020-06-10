@@ -17,7 +17,7 @@ layout: default
 
 ## 2 系统重置
 
-## 2.1 备份
+### 2.1 备份
 
 &emsp;&emsp;那么先备份吧，首先是软件列表：
 
@@ -143,12 +143,12 @@ echo 重置 TransMac 试用完成
 pause
 ```
 
-## 3.2 VMware Workstation 15 解锁 Mac OS
+### 3.2 VMware Workstation 15 解锁 Mac OS
 
 &emsp;&emsp;下载执行 unlocker 3，管理员运行 unlocker.exe ，等 patch OK了关掉就行。用来配置 opencore 和封装镜像。
 
 
-## 3.3 VMware Workstation 15.5.5 CapsLock 大写锁键修复
+### 3.3 VMware Workstation 15.5.5 CapsLock 大写锁键修复
 
 &emsp;&emsp;在虚拟机xmv配置文件下添加如下配置：
 
@@ -158,4 +158,17 @@ mks.win32.useInjectedMagic = "FALSE"
 
 &emsp;&emsp;问题出在那个增强型键盘驱动程序，没啥需要的话安装 VMware 时不要勾选它。
 
+## 4 环境配置 
+***
+### 4.1 java 开发环境配置 
+
+&emsp;&emsp;安装方法看[甲骨文的文档](https://docs.oracle.com/en/java/javase/14/install/overview-jdk-installation.html)，说实话挺灵活的，想怎么搞就怎么搞。
+
+&emsp;&emsp;首先，去 [OpenJDK 官网](http://openjdk.java.net/) 下载我需要的 JDK ，截至到 6/2/2020 ，OpenJDK 的最新发行版本为 14.0.1 ，那就这个了。。在[这里](http://jdk.java.net/14/)下载 “`openjdk-14.0.1_windows-x64_bin.zip`”，随便找个地方解压，我解压到了 `C:\Program Files\java` 下， 所以 JDK 的根目录是 `C:\Program Files\java\jdk-14.0.1\` 。 
+
+然后为了方便起见，得更新下环境变量。这一步看你干嘛了，你要打游戏估计设不设都行。
+
+文档中提到的Path变量值是 `C:\WINDOWS\system32;C:\WINDOWS;"C:\Program Files\Java\jdk-14\bin"`
+
+一般情况下这就够用，但由于某些历史遗留原因~~说的就是你tomcat~~，我是先在系统变量下添加个`JAVA_HOME`变量，值是`C:\Program Files\java\jdk-14.0.1`。然后 Path 变量添加值`%JAVA_HOME%\bin`。
 
