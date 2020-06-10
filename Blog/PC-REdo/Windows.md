@@ -2,23 +2,11 @@
 layout: default
 ---
 
-# PC环境配置备忘录
-
-&emsp;&emsp;(5/29/2020-?)
-
-
-
-## 不知道怎么讲 
-
-&emsp;&emsp;之前配置系统忘了写日志，导致了很多问题的出现~~老年人健忘~~，比如 Manjaro 的编译链和拉下来的库我是完全忘了怎么回事，出问题了想修很麻烦， 所以决定重置系统，顺便理一理近半年来的思路。
-
-
-
-## 1. Windows 10
+# Windows 10
 
 ***
 
-### 1.1 目标列表
+## 1 目标列表
 
 - [x] 系统的完全重置
 - [ ] 应用软件~~及游戏~~的安装
@@ -27,9 +15,9 @@ layout: default
 
 ***
 
-### 1.2 系统重置
+## 2 系统重置
 
-### 1.2.1 备份
+## 2.1 备份
 
 &emsp;&emsp;那么先备份吧，首先是软件列表：
 
@@ -85,7 +73,7 @@ layout: default
 
 ***
 
-### 1.3 软件安装记录
+## 3 软件安装记录
 
 &emsp;&emsp;Because that including browser has some problem, I have not to download the Chromium Edge to get KeePass from sourceforge.
 
@@ -155,12 +143,12 @@ echo 重置 TransMac 试用完成
 pause
 ```
 
-### 1.3.2 VMware Workstation 15 解锁 Mac OS
+## 3.2 VMware Workstation 15 解锁 Mac OS
 
 &emsp;&emsp;下载执行 unlocker 3，管理员运行 unlocker.exe ，等 patch OK了关掉就行。用来配置 opencore 和封装镜像。
 
 
-### 1.3.3 VMware Workstation 15.5.5 CapsLock 大写锁键修复
+## 3.3 VMware Workstation 15.5.5 CapsLock 大写锁键修复
 
 &emsp;&emsp;在虚拟机xmv配置文件下添加如下配置：
 
@@ -171,29 +159,3 @@ mks.win32.useInjectedMagic = "FALSE"
 &emsp;&emsp;问题出在那个增强型键盘驱动程序，没啥需要的话安装 VMware 时不要勾选它。
 
 
-## 2. Manjaro
-
-***
-
-### 2.1 目标列表
-
-- [x] 系统的完全重置
-- [ ] 应用软件~~及游戏~~的安装
-- [ ] 开发环境配置
-- [ ] 拉取Lineage OS 16.0 源码
-- [ ] 待定
-
-
-
-## 3. Hackintosh 
-
-***
-
-### 3.1 目标列表
-
-- [x] 系统的完全重置
-- [ ] OpenCore重新配置
-- [ ] 待定
-
-
-<center>这一行需要居中</center>
