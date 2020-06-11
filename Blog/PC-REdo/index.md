@@ -20,4 +20,4 @@ layout: default
 [Linux 配置日志](/Blog/PC-REdo/Linux)
 
 ## 3. Hackintosh 
--[Hackintosh 配置日志](/Blog/PC-REdo/Hackintosh)
+[Hackintosh 配置日志](/Blog/PC-REdo/Hackintosh)
