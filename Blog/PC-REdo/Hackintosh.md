@@ -25,15 +25,11 @@ layout: default
 ## 3 OpenCore 配置
 
 参考资料：
-OpenCore 官方文档 https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf
+[OpenCore 官方文档](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf)
 
-某博客
-https://blog.xjn819.com/?p=543
+[某博客](https://blog.xjn819.com/?p=543)
 
-dortania的教程
-https://github.com/dortania
-https://dortania.github.io
-https://dortania.github.io/vanilla-laptop-guide/
+[dortania的教程](https://dortania.github.io)
 
 现在 OpenCore 日渐完善，但是仍处在beta阶段，写文章的时间是 6/10/2020，选择的 OpenCore 版本号 0.5.9 。
 
