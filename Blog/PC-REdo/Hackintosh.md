@@ -33,7 +33,7 @@ layout: default
 
 现在 OpenCore 日渐完善，但是仍处在beta阶段，写文章的时间是 6/10/2020，选择的 OpenCore 版本号 0.5.9 。
 
-然后先按[教程](https://dortania.github.io/vanilla-laptop-guide/)一步一步来：
+然后先按[教程](https://dortania.github.io/OpenCore-Install-Guide/)一步一步来：
 
 ## 1PREPARATION
 ### 1.1 Preparing a full macOS Installer (requires macOS)
