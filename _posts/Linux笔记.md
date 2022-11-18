@@ -1,0 +1,69 @@
+# Linux
+
+## shell
+
+###### bash 的说明书：
+
+[GNU Bash manual - GNU Project - Free Software Foundation](https://www.gnu.org/software/bash/manual/)
+
+###### bash支持的shell param：
+
+[Shell Parameters (Bash Reference Manual) (gnu.org)](https://www.gnu.org/software/bash/manual/html_node/Shell-Parameters.html)
+
+###### Arch Linux 的 wiki:
+
+[Bash - ArchWiki (archlinux.org)](https://wiki.archlinux.org/title/Bash)
+
+[Command-line shell - ArchWiki (archlinux.org)](https://wiki.archlinux.org/title/Command-line_shell)
+
+###### POCIX 规范：
+
+POSIX.1-2017 is simultaneously IEEE Std 1003.1™-2017 and The Open Group Technical Standard Base Specifications, Issue 7.
+
+[The Open Group Base Specifications Issue 7, 2018 edition](https://pubs.opengroup.org/onlinepubs/9699919799/)
+
+[Shell Command Language (opengroup.org)](https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#tag_18_09)
+
+
+
+## Kickstart 无人值守自动安装
+
+###### tftp 守护进程
+
+[Configure TFTP Server on CentOS 8 (linuxhint.com)](https://linuxhint.com/tftp_server_centos8/)
+
+###### Red Hat 的 kickstart 安装方式文档
+
+[Performing an advanced RHEL 9 installation Red Hat Enterprise Linux 9 | Red Hat Customer Portal](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/9/html/performing_an_advanced_rhel_9_installation/index)
+
+###### 配置自动安装的一篇blog，以及原文
+
+[CentOS 8使用 Kickstart配置 UEFI PXE 启动_allway2的博客-CSDN博客_centos8 kickstart](https://blog.csdn.net/allway2/article/details/122135619)
+
+[Configure IPv4 UEFI PXE Boot with Kickstart RHEL/CentOS 8 | GoLinuxCloud](https://www.golinuxcloud.com/configure-uefi-pxe-boot-with-kickstart/)
+
+
+
+
+
+## Ansible
+
+文档：
+
+[Ansible Documentation](https://docs.ansible.com/)
+
+archlinux 的 Wiki：
+
+[Ansible - ArchWiki (archlinux.org)](https://wiki.archlinux.org/title/Ansible)
+
+一篇有关 httpd、selinux 的 blog：
+
+[Setting up a webserver to use HTTPS | Enable Sysadmin (redhat.com)](https://www.redhat.com/sysadmin/webserver-use-https)
+
+mariadb 配置：
+
+[How to get started with MySQL and MariaDB | Enable Sysadmin (redhat.com)](https://www.redhat.com/sysadmin/mysql-mariadb-introduction)
+
+以太网静态ip：
+
+[Chapter 2. Configuring an Ethernet connection Red Hat Enterprise Linux 9 | Red Hat Customer Portal](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/9/html/configuring_and_managing_networking/configuring-an-ethernet-connection_configuring-and-managing-networking#configuring-a-static-ethernet-connection-using-nmcli_configuring-an-ethernet-connection)
